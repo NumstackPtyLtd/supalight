@@ -1,0 +1,32 @@
+{
+  "name": "supalight",
+  "version": "0.1.0",
+  "description": "Syntax highlighting themes for the Supaproxy design system. Shiki themes + rehype plugin.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Numstack Pty Ltd",
+  "homepage": "https://github.com/NumstackPtyLtd/supalight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NumstackPtyLtd/supalight.git"
+  },
+  "keywords": ["syntax-highlighting", "shiki", "theme", "rehype", "mdx", "supaproxy"],
+  "exports": {
+    ".": "./src/index.js",
+    "./themes/dark": "./src/themes/dark.json",
+    "./themes/light": "./src/themes/light.json",
+    "./rehype": "./src/rehype.js"
+  },
+  "files": ["src"],
+  "dependencies": {
+    "hast-util-from-html": "^2.0.3",
+    "shiki": "^3.2.1",
+    "unist-util-visit": "^5.0.0"
+  },
+  "peerDependencies": {
+    "unified": ">=11"
+  },
+  "peerDependenciesMeta": {
+    "unified": { "optional": true }
+  }
+}
