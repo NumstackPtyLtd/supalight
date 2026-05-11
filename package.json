@@ -1,5 +1,5 @@
 {
-  "name": "supalight",
+  "name": "@supaproxy/supalight",
   "version": "0.1.0",
   "description": "Syntax highlighting themes for the Supaproxy design system. Shiki themes + rehype plugin.",
   "type": "module",
